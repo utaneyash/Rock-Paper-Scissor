@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="container hidden1 body">
+        <div class="userinfo">
+        <div class="usrchoices">
+            <div class="usrchoice" id="rock" >
+                <img src="./images/rock.png" alt="" srcset="">
+            </div>
+            <div class="usrchoice" id="paper">
+                <img src="./images/paper.png" alt="" srcset="">
+             </div>
+            <div class="usrchoice" id="scissor">
+                <img src="./images/scissors.png" alt="" srcset="">
+            </div>
+        </div>
+            <div class="score-card">
+                    <div>
+                        <p id="usr-score">0</p>
+                        Your Score
+                    </div>
+            </div>
+            <div class="msg-container">
+                <div id="msg">
+                    Start Playing</div>
+                </div>
+        </div>
+        <div class="compinfo"> 
+            <div class="compchoices">
+            <div class="rock compchoice" id="rock">
+                <img src="./images/rock.png" alt="" srcset="">
+            </div>
+            <div class="paper compchoice" id="paper">
+                <img src="./images/paper.png" alt="" srcset="">
+             </div>
+            <div class="scissor compchoice" id="scissor">
+                <img src="./images/scissors.png" alt="" srcset="">
+            </div>
+        </div>
+            <div class="score-card">
+                    <div>
+                        <p id="comp-score">0</p>
+                        Computer Score
+                    </div>
+            </div>
+            <div class="msg-container">
+                <div id="msg1">
+                    Start Playing
+                </div>
+                </div>
+        </div>
+        </div>
+    
+    </div>
+    <div class="reset">
+        <button class="btn rst">Reset</button>
+    </div>
+    <div class="winner-container hide hide1">
+        <p id="winner">Winner</p>
+        <button id="new">New Game</button>
+    </div>
+    <script src="first.js"></script>
+</body>
+</html>
